@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    tools:context="com.kelompok1.uas.MyPolis.Profil">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="#fff"
+        android:id="@+id/profil"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/ic_person_black_24dp"
+            android:id="@+id/myPict"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="2dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_below="@id/myPict"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/txt_nama"
+                android:textSize="18dp"
+                android:text="Nama "
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#fff"
+        android:layout_below="@id/profil"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_bantuan"
+            android:textSize="18dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Pusat Bantuan"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#656565"/>
+
+        <TextView
+            android:id="@+id/txt_tentang"
+            android:textSize="18dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Tentang Aplikasi"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#656565"/>
+
+        <TextView
+            android:id="@+id/txt_keluar"
+            android:textSize="18dp"
+
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keluar"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

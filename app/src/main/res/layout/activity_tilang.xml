@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.kelompok1.uas.MyPolis.Tilang">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9AFFFFFF"
+       >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:id="@+id/silahkan"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text="SILAHKAN MASUKKAN DATA PELANGGAR"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/silahkan"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Nama Lengkap"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/txNama_Add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:inputType="textCapSentences"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Jenis Kelamin"
+                android:textStyle="bold"/>
+            <Spinner
+                android:id="@+id/spJK_Add"
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:layout_height="45dp"
+                android:entries="@array/jenis_kelamin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Tempat Lahir"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txTempatLahir_Add"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Tanggal Lahir"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txTglLahir_Add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:inputType="date"
+                android:focusable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Alamat"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txAlamat_Add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:inputType="textCapSentences"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Pekerjaan"
+            android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txpekerjaan_Add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:inputType="textCapSentences"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:text="No. Polisi Kendaraan"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txNopol_Add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:inputType="textCapSentences"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Jenis"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/txjenismotor_Add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:inputType="textCapSentences"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+
+       >
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/next"
+
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/radius_btn"
+            android:textSize="25dp"
+            android:text="Selanjutnya"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

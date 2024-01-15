@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyPolis</string>
+
+    <string-array name="jenis_kelamin">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="slip">
+        <item>Biru</item>
+        <item>Merah</item>
+    </string-array>
+
+    <string-array name="penalti">
+        <item>Ringan</item>
+        <item>Sedang</item>
+        <item>Berat</item>
+    </string-array>
+
+    <string-array name="Bukti">
+        <item>STNK</item>
+        <item>SIM</item>
+        <item>KTP</item>
+    </string-array>
+
+    <string-array name="Pelanggaran">
+        <item>Pasal 281 : Tidak Punya SIM</item>
+        <item>Pasal 288 Ayat 2  : Tidak Bisa Menunjukan SIM</item>
+        <item>Pasal 280 : Tidak Ada Plat Pada Kendaraan</item>
+        <item>Pasal 285 Ayat 1 : Standart Motor Tidak Lengkap</item>
+        <item>Pasal 285 Ayat 2 : Standart Mobil Tidak Lengkap</item>
+        <item>Pasal 287 Ayat 1 : Melanggar Rambu Lali Lintas Jalan</item>
+        <item>Pasal 287 Ayat 5 : Melanggar Batas Kecepatan</item>
+        <item>Pasal 288 Ayat 1 : Tidak ada STNK</item>
+        <item>Pasal 289 : Tidak Pakai Seatbelt</item>
+        <item>Pasal 291 Ayat 1 : Tidak Pakai Helm</item>
+        <item>Pasal 293 Ayat 1 : Tidak Menyalakan Lampu Utama Saat Malam</item>
+        <item>Pasal 293 Ayat 2 : Lampu Utama Sepeda Motor Tidak Hidup Saat Siang Hari</item>
+        <item>Pasal 294 : Tidak Memberi Lampi Isyarat Saat belok</item>
+    </string-array>
+
+</resources>

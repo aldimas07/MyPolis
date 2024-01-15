@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="BUKTI PELANGGARAN LALU LINTAS"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kesatuan"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No. Registrasi Tilang"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3A3A3A"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:text="Pelanggar"/>
+
+    <TextView
+        android:id="@+id/tv_Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:id="@+id/tv_Alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/tv_TempatLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempat Lahir"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:id="@+id/tv_Tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/tv_pekerjaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pekerjaan"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/tv_bukti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bukti Disita"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/tv_penalti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penalti Pelanggaan"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/tv_tglpelang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Pelanggaan"
+        android:layout_margin="2dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3A3A3A"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:text="Kendaraan"/>
+
+    <TextView
+        android:id="@+id/tv_Nopol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No. Pol Kendaraan"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:id="@+id/tv_Jenismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Motor"
+        android:layout_margin="2dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3A3A3A"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:text="Penindak"/>
+
+    <TextView
+        android:id="@+id/tv_nrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NRP"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:id="@+id/tv_namapolisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:id="@+id/tv_kesatuanpolisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kesatuan"
+        android:layout_margin="2dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3A3A3A"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:text="Pasal Pelanggaran"/>
+
+    <TextView
+        android:id="@+id/tv_pasal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pasal"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/tv_denda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="denda"
+        android:layout_margin="2dp"/>
+
+</LinearLayout>

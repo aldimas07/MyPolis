@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kelompok1.uas.MyPolis.BantuanActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Cara Menilang"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tilang"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:text="Klik icon Seperti di atas kemudian akan di arahkan ke tahap selanjutnya yaitu pengisian data pelanggar."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:text="Setelah selesai isi data pelanggar Lalu klik simpan"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Cara Melihat data penliangan"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pelanggar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:text="Klik icon Seperti di atas kemudian akan di arahkan ke tahap selanjutnya yaitu data pelanggar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:text="Setelah berada di data pelanggar anda bisa melihat data pelanggar dan edit data pelanggar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#000"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:onClick="onButtonTap"
+        android:background="@drawable/radius_btn"
+        android:textColor="#fff"
+        android:text="Feedback"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:onClick="setShare"
+        android:background="@drawable/radius_btn"
+        android:textColor="#fff"
+        android:text="Share app"
+        android:textSize="20sp" />
+
+</LinearLayout>

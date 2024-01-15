@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kelompok1.uas.MyPolis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/polisilintas"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/polisilintas"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.kelompok1.uas.MyPolis.BantuanActivity"
+            android:label="Pusat Bantuan "
+            android:parentActivityName="com.kelompok1.uas.MyPolis.Profil"/>
+        <activity android:name="com.kelompok1.uas.MyPolis.TentangActivity"
+            android:label="Tentang Aplikasi"
+            android:parentActivityName="com.kelompok1.uas.MyPolis.Profil"/>
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.Tilang3maps"
+            android:label="Lokasi Penilangan "
+            android:parentActivityName="com.kelompok1.uas.MyPolis.Tilang2" />
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.Tilang2"
+            android:theme="@style/login" />
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.Tilang"
+            android:theme="@style/login" />
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.read"
+            android:label="Lihat Data "
+            android:parentActivityName="com.kelompok1.uas.MyPolis.daftarpelanggar"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.edit"
+            android:label="Edit"
+            android:parentActivityName="com.kelompok1.uas.MyPolis.daftarpelanggar"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.daftarpelanggar"
+            android:label="Daftar Pelangggar"
+            android:parentActivityName="com.kelompok1.uas.MyPolis.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.Profil"
+            android:label="Profil Saya"
+            android:parentActivityName="com.kelompok1.uas.MyPolis.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.Surattugas"
+            android:label="Surat Tugas"
+            android:parentActivityName="com.kelompok1.uas.MyPolis.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.Daftardenda"
+            android:label="Daftar Denda"
+            android:parentActivityName="com.kelompok1.uas.MyPolis.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.Register"
+            android:theme="@style/login" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBANdrMf9-bvo6KU0XAfs3IsCZ51sqg7A8" />
+
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.login"
+            android:theme="@style/login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.SplashScreen"
+            android:noHistory="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelompok1.uas.MyPolis.MainActivity"
+            android:theme="@style/Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
